@@ -1,8 +1,7 @@
 # Reify Bot
+Reify is a high-performance Discord music bot built with **Rust**, **Poise**, and **Serenity**. It utilizes the **Lavalink** music server to provide high-quality audio streaming with a modern, interaction-driven user experience.
 
 ![Reify Banner](assets/image.png)
-
-Reify is a high-performance Discord music bot built with **Rust**, **Poise**, and **Serenity**. It utilizes the **Lavalink** music server to provide high-quality audio streaming with a modern, interaction-driven user experience.
 
 ## Features
 
