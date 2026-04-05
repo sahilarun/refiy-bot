@@ -1,0 +1,36 @@
+[package]
+name = "reify"
+version = "0.1.0"
+edition = "2021"
+description = "A Discord music bot in rust"
+
+[dependencies]
+serenity = { version = "0.12", features = ["client", "gateway", "model", "rustls_backend"] }
+poise = "0.6"
+lavalink-rs = { version = "0.15", features = ["serenity"] }
+flume = "0.12"
+tokio = { version = "1", features = ["full"] }
+tokio-tungstenite = "0.21"
+dotenvy = "0.15"
+thiserror = "1"
+anyhow = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+dashmap = "5"
+redis = { version = "0.27", features = ["tokio-comp", "connection-manager", "tokio-native-tls-comp"] }
+tokio-native-tls = "0.3"
+native-tls = "0.2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+libsql = { version = "0.9", default-features = false, features = ["remote", "tls"] }
+uuid = { version = "1", features = ["v4"] }
+chrono = "0.4"
+futures = "0.3"
+rand = "0.8"
+crossbeam = "0.8"
+reqwest = { version = "0.11", features = ["json", "rustls-tls"] }
+async-trait = "0.1"
+urlencoding = "2.1"
+axum = "0.8.8"
+tower-http = { version = "0.6.8", features = ["cors", "trace"] }
+sysinfo = "0.30"
